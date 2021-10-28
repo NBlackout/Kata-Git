@@ -1,0 +1,11 @@
+public class User
+{
+	private UserFirstName FirstName { get; }
+	private UserLastName LastName { get; }
+	
+	public User(UserFirstName firstName, UserLastName lastName)
+	{
+		this.FirstName = firstName;
+		this.LastName = lastName;
+	}
+}
