@@ -2,10 +2,12 @@ public class User
 {
 	private UserFirstName FirstName { get; }
 	private UserLastName LastName { get; }
+	private UserDateOfBirth DateOfBirth { get; }
 	
-	public User(UserFirstName firstName, UserLastName lastName)
+	public User(UserFirstName firstName, UserLastName lastName, UserDateOfBirth dateOfBirth)
 	{
 		this.FirstName = firstName;
 		this.LastName = lastName;
+		this.DateOfBirth = dateOfBirth
 	}
 }
