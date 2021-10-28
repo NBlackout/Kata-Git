@@ -1,9 +1,9 @@
 public class User
 {
-	private UserFirstName FirstName { get; }
-	private UserLastName LastName { get; }
+	private FirstName FirstName { get; }
+	private LastName LastName { get; }
 	
-	public User(UserFirstName firstName, UserLastName lastName)
+	public User(FirstName firstName, LastName lastName)
 	{
 		this.FirstName = firstName;
 		this.LastName = lastName;
